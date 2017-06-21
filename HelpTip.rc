@@ -1,0 +1,359 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\HelpTip.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\HelpTip.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HELPTIP_DIALOG DIALOGEX 0, 0, 223, 67
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "精灵助手 -- 未来工作室(Future Studio)"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "继续",IDOK,166,7,50,17
+    LTEXT           "真的不要我了么？",IDC_STATIC,47,14,111,15
+    DEFPUSHBUTTON   "退出",IDCANCEL,166,29,50,17
+    CTEXT           "写信给我",IDC_MAIL,166,53,50,11
+    ICON            IDR_MAINFRAME,IDC_STATIC,17,10,20,20
+END
+
+IDD_DOWNLOAD_ADDRESS DIALOG DISCARDABLE  0, 0, 178, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置下载网址"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "下载",IDOK,24,76,50,18
+    PUSHBUTTON      "取消",IDCANCEL,104,76,50,18
+    LTEXT           "下载网址(URL)：",IDC_STATIC,13,17,91,11
+    EDITTEXT        IDC_DOWNLOAD,13,31,150,14,ES_AUTOHSCROLL
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 231, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "关于 精灵助手"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,174,5,50,18
+    PUSHBUTTON      "更多>>",ID_MORE,174,29,50,18
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    CTEXT           "精灵助手 1.1版",IDC_STATIC,37,13,126,11
+    CTEXT           "作者：徐景周",IDC_STATIC,37,29,126,11
+    CTEXT           "版权(C) 2001-2005 未来工作室",IDC_COPYRIGHT,37,45,126,
+                    11
+    LTEXT           "",IDC_DYCREDITS,6,64,219,74,0,WS_EX_STATICEDGE
+END
+
+IDD_ADVERTISE DIALOG DISCARDABLE  0, 0, 174, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "特效窗体 -- 未来工作室"
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_MIRROR_IN_WATER DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "水中倒影 -- 未来工作室"
+FONT 9, "宋体"
+BEGIN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "新增特效窗体(具有涟漪、火焰、溶浆、爆炸、冲击波、雪花、烟花、闪电、动态徽标、屏保、文字、水中倒影、云朵移动等数十种特效，先加这么多吧，懒的再加了，^_^)，动态菲屏(20种动态位图特效)，主程序内部进行了一些优化(显示速度会提高)。\0"
+            VALUE "CompanyName", "未来工作室(Future Studio)\0"
+            VALUE "FileDescription", "精灵特效窗体(作者: 徐景周)\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "HelpTip\0"
+            VALUE "LegalCopyright", "版权(C) 2001-2005 未来工作室\0"
+            VALUE "LegalTrademarks", "未来工作室(Future Studio)\0"
+            VALUE "OriginalFilename", "HelpTip.EXE\0"
+            VALUE "PrivateBuild", "作者：徐景周\0"
+            VALUE "ProductName", "精灵特效窗体\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "作者：徐景周\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_HELPTIP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DOWNLOAD_ADDRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+    END
+
+    IDD_ADVERTISE, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_MIRROR_IN_WATER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CHECK               BITMAP  DISCARDABLE     "res\\check.bmp"
+SPRITEMAP               BITMAP  DISCARDABLE     "res\\SPRITE.bmp"
+IDB_ADVERTISE           BITMAP  DISCARDABLE     "res\\vckbase.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\Splash.BMP"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\logo.bmp"
+IDB_SMILEFACE           BITMAP  DISCARDABLE     "res\\smileFace.bmp"
+IDB_EXPLOSION           BITMAP  DISCARDABLE     "res\\Explosion.bmp"
+IDB_ROCK                BITMAP  DISCARDABLE     "res\\rock.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE                WAVE    DISCARDABLE     "res\\IDR_WAVE.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "POPMENU"
+    BEGIN
+        MENUITEM "显示/隐藏",                   IDR_SHOWHIDE
+        MENUITEM SEPARATOR
+        POPUP "行为表现"
+        BEGIN
+            MENUITEM "奔跑",                        IDR_ACTION_RUN
+            MENUITEM "散步",                        IDR_ACTION_WALK
+            MENUITEM "休息",                        IDR_ACTION_IDLE
+        END
+        MENUITEM SEPARATOR
+        POPUP "特效窗体"
+        BEGIN
+            MENUITEM "水纹效果",                    IDR_EFFECT_WATER
+            MENUITEM "火焰效果(慢)",                IDR_EFFECT_FIRE
+            MENUITEM "熔浆效果",                    IDR_EFFECT_PLASMA
+            MENUITEM "爆炸效果",                    IDR_EFFECT_PARTICLE
+            MENUITEM "雪花效果",                    IDR_EFFECT_SNOW
+            MENUITEM "烟花效果",                    IDR_EFFECT_FIREWORKS
+            MENUITEM "徽标效果",                    IDR_EFFECT_LOGO
+            MENUITEM "闪电效果",                    IDR_EFFECT_ELECTRICITY
+            MENUITEM "屏保效果",                    IDR_EFFECT_SCREENSAVER
+            MENUITEM "文字效果",                    IDR_EFFECT_FONT
+            MENUITEM SEPARATOR
+            MENUITEM "水中倒影",                    ID_MIRROR_IN_WATER
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "全屏幕走动",                  IDR_FULLSCREEN_WALK
+        MENUITEM SEPARATOR
+        MENUITEM "开机自启动",                  IDR_AUTORUN
+        MENUITEM SEPARATOR
+        MENUITEM "设置下载网址",                IDR_DOWNLOAD
+        MENUITEM SEPARATOR
+        MENUITEM "关于(&A)",                    IDR_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    IDR_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_DROP                CURSOR  DISCARDABLE     "res\\drop.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_SHOWHIDE            "显示或隐藏精灵助手/n显示或隐藏"
+    IDR_FULLSCREEN_WALK     "全屏幕走动\n全屏幕走动"
+    IDR_EXIT                "退出程序\n退出"
+    IDR_DOWNLOAD            "设置下载网址\n设置下载网址"
+    IDR_ACTION              "行为表现\n行为表现"
+    IDR_ACTION_RUN          "奔跑\n奔跑"
+    IDR_ACTION_WALK         "散步\n散步"
+    IDR_ACTION_IDLE         "休息\n休息"
+    IDR_ABOUT               "关于\n关于"
+    IDR_AUTORUN             "开机自启动\n开机自启动"
+    IDR_EFFECT_PLASMA       "熔浆效果\n熔浆效果"
+    IDR_EFFECT_WATER        "水纹效果\n水纹效果"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_EFFECT_FIRE         "火焰效果\n火焰效果"
+    IDR_EFFECT_FONT         "显示文字\n显示文字"
+    IDR_EFFECT_ELECTRICITY  "闪电效果\n闪电效果"
+    IDR_EFFECT_PARTICLE     "爆炸效果\n爆炸效果"
+    IDR_EFFECT_SNOW         "雪花效果\n雪花效果"
+    IDR_EFFECT_SCREENSAVER  "屏保效果\n屏保效果"
+    IDR_EFFECT_LOGO         "徽标效果\n徽标效果"
+    IDR_EFFECT_FIREWORKS    "烟花效果\n烟花效果"
+    ID_MIRROR_IN_WATER      "水中倒影\n水中倒影"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\HelpTip.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

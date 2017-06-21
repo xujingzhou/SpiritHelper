@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HelpTip - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/HelpTip.res" /d "_DEBUG" /d "_AFXDLL" "C:\My Documents\HelpTip+\HelpTip+\HelpTip.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1096.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\HelpTip+\HelpTip+\About.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\Advertise.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\Animation.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\AsciiAnimation.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\BCMenu.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\CREDITSTATIC.CPP"
+"C:\My Documents\HelpTip+\HelpTip+\DIBSectionLite.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\DownloadAddress.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\FireRoutine.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\HelpTip.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\HelpTipDlg.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\HoverEdit.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\HyperLink.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\MirrorInWater.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\Ntray.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\ParticleRoutine.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\PlasmaRoutine.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\Splash.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\TransparentWnd.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\WaterRoutine.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\XInfoTip.cpp"
+"C:\My Documents\HelpTip+\HelpTip+\xShadeButton.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1096.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1097.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HelpTip.pdb" /debug /machine:I386 /out:"Debug/HelpTip.exe" /pdbtype:sept 
+".\Debug\About.obj"
+".\Debug\Advertise.obj"
+".\Debug\Animation.obj"
+".\Debug\AsciiAnimation.obj"
+".\Debug\BCMenu.obj"
+".\Debug\CREDITSTATIC.OBJ"
+".\Debug\DIB256.obj"
+".\Debug\DIBSectionLite.obj"
+".\Debug\DownloadAddress.obj"
+".\Debug\FireRoutine.obj"
+".\Debug\HelpTip.obj"
+".\Debug\HelpTipDlg.obj"
+".\Debug\HoverEdit.obj"
+".\Debug\HyperLink.obj"
+".\Debug\MirrorInWater.obj"
+".\Debug\Ntray.obj"
+".\Debug\ParticleRoutine.obj"
+".\Debug\PlasmaRoutine.obj"
+".\Debug\Splash.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TransparentWnd.obj"
+".\Debug\WaterRoutine.obj"
+".\Debug\XInfoTip.obj"
+".\Debug\xShadeButton.obj"
+".\Debug\HelpTip.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1097.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Advertise.cpp
+Animation.cpp
+AsciiAnimation.cpp
+BCMenu.cpp
+CREDITSTATIC.CPP
+DIBSectionLite.cpp
+DownloadAddress.cpp
+FireRoutine.cpp
+HelpTip.cpp
+HoverEdit.cpp
+HyperLink.cpp
+MirrorInWater.cpp
+Ntray.cpp
+ParticleRoutine.cpp
+Splash.cpp
+TransparentWnd.cpp
+WaterRoutine.cpp
+XInfoTip.cpp
+xShadeButton.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+About.cpp
+HelpTipDlg.cpp
+PlasmaRoutine.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+HelpTip.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
